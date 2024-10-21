@@ -16,13 +16,13 @@ try:
 except AttributeError:
     print('multiplication was not loaded')
 try:
+    calc_functions['div'] = calculator.division_without_remainder
+except AttributeError:
+    print('reminder was not loaded')
+try:
     calc_functions['/'] = calculator.division
 except AttributeError:
     print('multiplication was not loaded')
-try:
-    calc_functions['//'] = calculator.division_without_remainder
-except AttributeError:
-    print('reminder was not loaded')
 try:
     calc_functions['%'] = calculator.reminder
 except AttributeError:
