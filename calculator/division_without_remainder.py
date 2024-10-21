@@ -1,3 +1,4 @@
+"""5:2=2"""
 """division_without_remainder"""
 
 def division_without_remainder(a, b):
