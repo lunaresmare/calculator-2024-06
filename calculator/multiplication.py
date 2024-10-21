@@ -1,5 +1,5 @@
-"""sum"""
+"""Сумма"""
 
 def multiplication(a, b):
-    """function for summation"""
+    """Функция суммы"""
     return a * b
