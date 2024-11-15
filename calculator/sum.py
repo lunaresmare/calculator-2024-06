@@ -1,5 +1,5 @@
 """sum"""
 
-def sum(a, b):
+def sum(a, c):
     """function for summation"""
-    return a + b
+    return a + c
